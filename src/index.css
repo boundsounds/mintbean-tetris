@@ -10,7 +10,6 @@
   
   --bg-color: #222;
   --color-dark: #222;
-  --color: #C2BEED;
   --color-med-1: #C2BEED;
   --color-med: #C2BEED;
 
@@ -206,7 +205,6 @@ body {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
    color: white;
    text-align: center;
 }
