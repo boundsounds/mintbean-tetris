@@ -18,7 +18,7 @@ import "../index.css";
 
 
 const store = createStore(reducers);
-
+// tetris app running state management
 class Tetris extends Component {
   render() {
     return (

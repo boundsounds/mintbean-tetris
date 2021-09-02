@@ -110,7 +110,7 @@ export const addBlockToGrid = (shape, grid, x, y, rotation) => {
   for (let row = 0; row < block.length; row++) {
     for (let col = 0; col < block[row].length; col++) {
       if (block[row][col]) {
-        // TODO: Find game over when block can't b placed.
+        
         const yIndex = row + y;
         // const xIndex = col + x
 

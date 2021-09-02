@@ -35,5 +35,5 @@ const mapStateToProps = (state) => {
   };
 };
 
-// Conect this component
+// Connect this component
 export default connect(mapStateToProps)(NextBlock);
