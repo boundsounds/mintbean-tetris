@@ -10,7 +10,7 @@
   
   --bg-color: #222;
   --color-dark: #222;
-  --color-med-1: #C2BEED;
+  --color-med-1: #222;
   --color-med: #C2BEED;
 
   /* Border Colors */
@@ -364,4 +364,7 @@ ul {
   float: right;
   width: 300px;
   height: 300px;
+}
+.font-color{
+  color: #222;
 }

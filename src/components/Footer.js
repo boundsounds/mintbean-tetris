@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <footer className="page-footer">
         <div className="footer-container">
-          <div className="">
+          <div className="font-color">
             <h1 className="grey-text text-lighten-4">Follow Me !</h1>
 
             <a href="https://www.linkedin.com/in/granthood21/">
@@ -20,8 +20,12 @@ class Footer extends Component {
             </a>
 
             <a href="https://www.granthood.org/home">
-              GihHub{" "}
+              GitHub{" "}
               <img src="https://img.icons8.com/ios/50/000000/github--v1.png" />
+            </a>
+            <a href="mailto: grant.hood21@gmail.com">
+              Email
+              <img src="https://img.icons8.com/ios/50/000000/apple-mail.png" />
             </a>
           </div>
         </div>

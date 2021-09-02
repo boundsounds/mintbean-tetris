@@ -5,9 +5,9 @@ import backgroundimage from "../assets/backgroundimage.jpg"
 export const About = () => {
   return (
     <div className="landing-page">
-      <h3>PastelTetris was made by Grant Hood</h3>
+      <h3 className="font-color">PastelTetris was made by Grant Hood</h3>
       <img className="about-image" src={backgroundimage} />
-      <p>
+      <p className="font-color">
         My name is Grant Hood and I am a Front End Web Developer working to
         improve my skills and transfer careers from retail management to a front
         end developer role.
@@ -28,6 +28,9 @@ export const About = () => {
       </a>
       <a href="https://www.linkedin.com/in/granthood21/">
         <img src="https://img.icons8.com/ios/100/000000/linkedin.png" />
+      </a>
+      <a href="mailto: grant.hood21@gmail.com">
+        <img src="https://img.icons8.com/ios/100/000000/apple-mail.png" />
       </a>
       <br />
       <br />

@@ -8,14 +8,16 @@ export const LandingPage = () => {
       <br />
       <br />
       <br />
-      <h1>PastelTetris</h1>
-      <h2>A modern and prettier take on the classic game of Tetris</h2>
+      <h1 className="font-color">PastelTetris</h1>
+      <h2 className="font-color">
+        A modern and prettier take on the classic game of Tetris
+      </h2>
       <img className="home-image" src={tetrispic}></img>
-      <h3>
+      <h3 className="font-color">
         Do you have what it takes to be a stack master? How many lines can you
         clear before you reach the top!
       </h3>
-      <h4 className="directions">
+      <h4 className="directions" className="font-color">
         Use the buttons on screen or the keyboard arrow keys and spacebar to
         move, rotate and drop the shape into place!
       </h4>
@@ -23,8 +25,8 @@ export const LandingPage = () => {
       <br />
       <br />
       <br />
-      <h4>Technologies Used:</h4>
-      <ul>
+      <h4 className="font-color">Technologies Used:</h4>
+      <ul className="font-color">
         <li> • React</li>
         <li> • Redux</li>
         <li> • JSX</li>

@@ -35,7 +35,9 @@ class Tetris extends Component {
         <br />
         <br />
         <div className="lofi">
-          <h2>Feel free to listen to some relaxing music while you play!</h2>
+          <h2 className="font-color">
+            Feel free to listen to some relaxing music while you play!
+          </h2>
           <iframe
             width="560"
             height="250"
@@ -46,8 +48,6 @@ class Tetris extends Component {
             allowfullscreen
           ></iframe>
         </div>
-
-        
       </Provider>
     );
   }

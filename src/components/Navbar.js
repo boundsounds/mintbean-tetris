@@ -4,7 +4,7 @@ import brandimage from "../assets/brandimage.jpg"
 const NavbarComponent = () => {
   return (
     <Navbar expand="lg" bg="light">
-      <br />
+      
       <img
         src={brandimage}
         width="30"
@@ -12,8 +12,7 @@ const NavbarComponent = () => {
         className="d-inline-block align-top"
         alt=""
       ></img>
-      <br />
-      <br />
+      
       <Navbar.Brand href="/">PastelTetris</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
