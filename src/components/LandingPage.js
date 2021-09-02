@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-import tetrispic from "../assets/tetrispic.PNG";
+import tetrispic from "../assets/tetrispic.jpg";
 export const LandingPage = () => {
   return (
     <div className="landing-page">

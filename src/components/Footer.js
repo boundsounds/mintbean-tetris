@@ -23,7 +23,7 @@ class Footer extends Component {
               GitHub{" "}
               <img src="https://img.icons8.com/ios/50/000000/github--v1.png" />
             </a>
-            <a href="mailto: grant.hood21@gmail.com">
+            <a className="font-color" href="mailto: grant.hood21@gmail.com">
               Email
               <img src="https://img.icons8.com/ios/50/000000/apple-mail.png" />
             </a>
